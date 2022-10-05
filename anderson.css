@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+/*CSS da Parte 4 - Anderson*/
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    color: white;
+}
+.fundonovidades{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    height: 700px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.novidades{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+.anuncio{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+.assunto{
+    flex-direction: row;
+    display: flex;
+    margin: 10px;
+    width: 90%;
+    height: 25%;
+    background-color: black;
+}
+.imagem{
+    display: flex;
+    max-height: auto;
+    max-width: auto;
+    padding-right: 10px;
+}
+.titulointerno{
+    color: white;
+    margin:0;
+    padding-bottom: 20px;
+    height: 0;
+}
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0;
+    padding-top: 10px;
+    color: white;
+}
+
+/*CSS da Parte 5 - Anderson*/
+
+.fonte{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.fundofavoritos{
+    display: flex;
+    height: 700px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.favoritos{
+    text-align: justify;
+    display: block;
+    margin: 10px;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background-color: black;
+}
